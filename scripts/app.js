@@ -46,10 +46,10 @@ function displayPreviousData() {
         previousData.forEach(student => {
             const container = document.createElement('div');
             container.innerHTML = `
-                <p>First Name: ${student.firstName}</p>
-                <p>Last Name: ${student.lastName}</p>
-                <p>CodeStack Email: ${student.codestackEmail}</p>
-                <p>Email: ${student.email}</p>
+                <h1>First Name: ${student.firstName}</h1>
+                <h1>Last Name: ${student.lastName}</h1>
+                <h1>CodeStack Email: ${student.codestackEmail}</h1>
+                <h1>Email: ${student.email}</h1>
             `;
             displayArea.appendChild(container);
         });
