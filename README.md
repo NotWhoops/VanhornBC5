@@ -1,11 +1,9 @@
 // Brandon Van Horn
 
- // Date Revised: This is the last day you saved. 
+ // Date Revised: 11/25/25 
 
  // RNG
 
- // Brief Description of what you did. 
+ // created a random name generator with student info and displays the last 5 students
 
- // You can add multiple dates with description.
-
-// Person who Peer Reviewed your assignment
+// Peer Review: 
