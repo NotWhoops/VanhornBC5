@@ -1,0 +1,154 @@
+{
+"students": [
+        {
+            "firstName": "Arianna",
+            "lastName": "Huntley",
+            "codestackEmail": "clair10022004@codestack.co",
+            "email": "clair10022004@gmail.com"
+        },
+        {
+            "firstName": "Brandon",
+            "lastName": "Estrada",
+            "codestackEmail": "bestrada@codestack.co",
+            "email": "bestrada8800@gmail.com"
+        },
+        {
+            "firstName": "Brandon",
+            "lastName": "Van Horn",
+            "codestackEmail": "bmdvanhorn@codestack.co",
+            "email": "bmdvanhorn@icloud.com"
+        },
+        {
+            "firstName": "Bryce",
+            "lastName": "Mack",
+            "codestackEmail": "brycewmack50@codestack.co",
+            "email": "brycemack50@outlook.com"
+        },
+        {
+            "firstName": "Carlos",
+            "lastName": "Lopez",
+            "codestackEmail": "clopez@codestack.co",
+            "email": "carlos.lopez5639@gmail.com"
+        },
+        {
+            "firstName": "Daniel",
+            "lastName": "Herrera",
+            "codestackEmail": "dherrera@codestack.co",
+            "email": "dherr929@gmail.com"
+        },
+        {
+            "firstName": "Darcy",
+            "lastName": "Rose",
+            "codestackEmail": "drose@codestack.co",
+            "email": "darcy.ophelia.rose@gmail.com"
+        },
+        {
+            "firstName": "Eliasaf",
+            "lastName": "Gonzalez",
+            "codestackEmail": "eliasafgonzalez0@codestack.co",
+            "email": "eliasafgonzalez0@gmail.com"
+        },
+        {
+            "firstName": "Gavin",
+            "lastName": "Tristan",
+            "codestackEmail": "gaqtristan@gmail.com",
+            "email": "gaqtristan@gmail.com"
+        },
+        {
+            "firstName": "Isaias",
+            "lastName": "Gonzalez",
+            "codestackEmail": "igonzalez@codestack.co",
+            "email": "ijgggr@gmail.com"
+        },
+        {
+            "firstName": "James",
+            "lastName": "Blackwell",
+            "codestackEmail": "jblackwell@codestack.co",
+            "email": "bwelljames@gmail.com"
+        },
+        {
+            "firstName": "Jesus",
+            "lastName": "Salgado",
+            "codestackEmail": "jsalgado@codestack.co",
+            "email": "jesussalgado9040@gmail.com"
+        },
+        {
+            "firstName": "Joseph",
+            "lastName": "Duarte",
+            "codestackEmail": "jduarte@codestack.co",
+            "email": "Duartemjoseph@gmail.com"
+        },
+        {
+            "firstName": "Kellen",
+            "lastName": "Dixon",
+            "codestackEmail": "",
+            "email": ""
+        },
+        {
+            "firstName": "Lucas",
+            "lastName": "Guptill",
+            "codestackEmail": "",
+            "email": ""
+        },
+        {
+            "firstName": "Nicolas",
+            "lastName": "Gonzaba",
+            "codestackEmail": "ngonzaba@codestack.co",
+            "email": "NicolasGonzaba1@gmail.com"
+        },
+        {
+            "firstName": "Pallavi",
+            "lastName": "Pattanashetti",
+            "codestackEmail": "ppattanashetti@codestack.co",
+            "email": "Pallavi.Pattanashetti@gmail.com"
+        },
+        {
+            "firstName": "Rizwan",
+            "lastName": "Mehmoo",
+            "codestackEmail": "",
+            "email": ""
+        },
+        {
+            "firstName": "Sammer",
+            "lastName": "Saqa",
+            "codestackEmail": "",
+            "email": ""
+        },
+        {
+            "firstName": "Vanessa",
+            "lastName": "Acuna",
+            "codestackEmail": "vacuna@codestack.co",
+            "email": "vanessa.acuna98@gmail.com"
+        },
+        {
+            "firstName": "Xavier",
+            "lastName": "Jacques",
+            "codestackEmail": "xjacques@codestack.co",
+            "email": "xavierjacques2442@gmail.com"
+        },
+        {
+            "firstName": "Kenneth",
+            "lastName": "Martinez",
+            "codestackEmail": "kmartinez@codestack.co",
+            "email": "kmartinez@sjcoe.net"
+        },
+        {
+            "firstName": "Isaiah",
+            "lastName": "Ferguson",
+            "codestackEmail": "iferguson@codestack.co",
+            "email": "ifergusonIII@sjcoe.net"
+        },
+        {
+            "firstName": "Jose",
+            "lastName": "Martinez",
+            "codestackEmail": "jmartinez@codestack.co",
+            "email": "jmartinez@sjcoe.net"
+        },
+        {
+            "firstName": "Jacob",
+            "lastName": "Dekok",
+            "codestackEmail": "jdekok@codestack.co",
+            "email": "jdekok@sjcoe.net"
+        }
+    ]
+}
