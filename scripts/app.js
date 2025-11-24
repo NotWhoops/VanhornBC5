@@ -17,7 +17,6 @@ function getData(){
     });
 }
 
-
 function randomizeData(students){
     let randomIndex = Math.floor(Math.random() * students.length);
     console.log([randomIndex]);
@@ -25,13 +24,14 @@ function randomizeData(students){
 }
 
 function addData(newData) {
-    previousHistory.push(newData);
-    if (previousHistory.length > previousItems) {
-    previousHistory.shift();
+    if (previousHistory.length < previousItems) {
+        previousHistory.push(newData);
+    } else {
+        console.log("History is full, not adding more.");
     }
     console.log(previousHistory);
-    
 }
+
 
 function displayPreviousData() {
     const displayArea = document.getElementById('dataDisplayArea');
@@ -39,24 +39,28 @@ function displayPreviousData() {
 
     const startIndex = Math.max(0, previousHistory.length - previousItems);
     const previousData = previousHistory.slice(startIndex);
-    console.log(previousData);
-    
 
     if (previousData.length === 0) {
-    displayArea.textContent = "No previous data to display.";
+        displayArea.textContent = "No previous data to display.";
     } else {
-    previousData.forEach(item => {
-    const p = document.createElement('p');
-    p.textContent = item;
-    displayArea.appendChild(p);
-    });
+        previousData.forEach(student => {
+            const container = document.createElement('div');
+            container.innerHTML = `
+                <p>First Name: ${student.firstName}</p>
+                <p>Last Name: ${student.lastName}</p>
+                <p>CodeStack Email: ${student.codestackEmail}</p>
+                <p>Email: ${student.email}</p>
+            `;
+            displayArea.appendChild(container);
+        });
     }
 }
+
 
 studentsBtn.addEventListener("click", () => {
     getData().then((students)=> {
         let randomStudent = randomizeData(students);
-        // addData(randomStudent);
+        addData(randomStudent);
         firstName.innerText = randomStudent.firstName;
         lastName.innerText = randomStudent.lastName;
         codestackEmail.innerText = randomStudent.codestackEmail;
@@ -65,8 +69,8 @@ studentsBtn.addEventListener("click", () => {
 });
 
 previousBtn.addEventListener("click", () => {
-    const newData = `Data item ${previousHistory.length + 1}`;
-    // addData(newData);
+    const newData = `Data item`;
+    addData(newData);
     displayPreviousData();
     console.log("Added:", newData);
-})
+});
