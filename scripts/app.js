@@ -29,6 +29,8 @@ function addData(newData) {
     if (previousHistory.length > previousItems) {
     previousHistory.shift();
     }
+    console.log(previousHistory);
+    
 }
 
 function displayPreviousData() {
@@ -37,6 +39,8 @@ function displayPreviousData() {
 
     const startIndex = Math.max(0, previousHistory.length - previousItems);
     const previousData = previousHistory.slice(startIndex);
+    console.log(previousData);
+    
 
     if (previousData.length === 0) {
     displayArea.textContent = "No previous data to display.";
@@ -52,6 +56,7 @@ function displayPreviousData() {
 studentsBtn.addEventListener("click", () => {
     getData().then((students)=> {
         let randomStudent = randomizeData(students);
+        // addData(randomStudent);
         firstName.innerText = randomStudent.firstName;
         lastName.innerText = randomStudent.lastName;
         codestackEmail.innerText = randomStudent.codestackEmail;
@@ -60,7 +65,8 @@ studentsBtn.addEventListener("click", () => {
 });
 
 previousBtn.addEventListener("click", () => {
-    const newData = "Data item ${previousHistory.length + 1}";
-    addData(newData);
+    const newData = `Data item ${previousHistory.length + 1}`;
+    // addData(newData);
+    displayPreviousData();
     console.log("Added:", newData);
 })
